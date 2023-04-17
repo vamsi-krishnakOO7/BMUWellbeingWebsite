@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Advisory</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="health_feed.css">
+</head>
+<body>
+    <script src="https://kit.fontawesome.com/afe9d36b7f.js" crossorigin="anonymous"></script>
+    
+    <div id="topPart">
+        <div id="headerStrip">
+            <div id="lisu" onclick="goToUserLogin()">Login/Sign-up</div>
+            <!-- <div onclick="goToDoctorPage()">For Doctors</div> -->
+        </div>
+
+        <div id="lyb">
+            <img onclick="goToHome()" src="pics/HE_Logo.png" width="100" height="35" />
+            <div onclick="goToAskQuestions()">
+                <img src="https://assets.lybrate.com/q_auto,f_auto,h_28,w_28,c_fill/imgs/product/Homepage/Ask-Question.png" />
+                <p>Health Feed</p>
+            </div>
+            <div onclick="bookAppointment()">
+                <img
+                    src="https://assets.lybrate.com/q_auto,f_auto,h_28,w_28,c_fill/imgs/product/Homepage/Book-Appointment.png" />
+                <p>Upcoming Camps</p>
+            </div>
+            <div onclick="consultOnline()">
+                <img src="https://assets.lybrate.com/q_auto,f_auto,h_28,w_28,c_fill/imgs/product/Homepage/Consult-Online.png" />
+                <p>Health Advisory</p>
+            </div>
+            <div onclick="goToBookLabTest()">
+                <img src="https://assets.lybrate.com/q_auto,f_auto,h_28,w_28,c_fill/imgs/product/Homepage/Book-Lab-test.png" />
+                <p>Request a Test</p>
+            </div>
+        </div>
+        <div id="hfSearchPart">
+            <div id="inputBox">
+              <input type="text" id="searchKey" placeholder="Search for advisories..." >
+           </div>
+           <div id="hfSearchButton">
+              <button onclick="searchAns()">Search</button>
+           </div>
+        </div>
+    </div>
+<br>
+
+    <div style="border-left: 1.5px solid black; height: 930px; position: absolute; left: 60%;"></div>
+
+    <div class="other-articles-header">
+        <h3>Other Advisories</h3>
+     </div>
+
+   </div> 
+    
+    <div class="other-articles-container">
+        <img src="pics/dengue.jpg" width="330">
+        <center><a href="#">Advisory regarding Dengue Fever</a></center>
+        <br>
+        <img src="pics/injury.jpg" width="330">
+        <center><a href="#">Advisory on Bodily Injuries in Campus</a></center>
+        <br>
+        <img src="pics/delhi.jpg" width="330">
+        <center><a href="#">COVID-19 Cases on the rise in Delhi-NCR</a></center>
+     </div>
+     
+
+    <div>
+        <div id="hfSmallHeading">
+          <a><span>Home</span> > <span>Health Feed</span> > Viral Infections increasing in Campus</a>
+       </div>
+    </div>
+    <div>
+        <div id="hfBigHeading">
+           <h1>Viral Infections increasing in Campus</h1>
+        </div>
+    </div>
+
+    <br>
+
+    <div id="hfImg">
+    <div>
+        <img src="pics/flu.jpg" width="500">
+    </div>
+</div>
+
+<br>
+
+    <div id="hfFlexBox">
+            
+        <div class="text-container-flex">
+            <p>The number of patients visiting the Medical Centre has increased over the past 5 days and most of them have cough & cold with light fever which lasts for 3 to 5 days. This is primarily a viral infection aggravated by th exchange in weather. In view of this, it is important that everyone understands the symptoms and takes all precautions to avoid the same.</p>
+  <br>
+            <b><p>Symptoms of Viral Infection</p></b> 
+            <p><ul>
+                <li> Nausea</li>
+                <li> Vomiting</li>
+                <li> Sore throat</li>
+                <li> Body pain</li>
+                <li> Diarrhoea</li>
+              </ul></p>
+    <br>
+             <b><p>Precautions to be Taken</p></b>
+             <p><ul>
+                <li> Wash your hands regularly with water &amp; soap</li>
+                <li> Wear face mask</li>
+                <li> Avoid crowded areas</li>
+                <li> Avoid touching your nose &amp; face</li>
+                <li> Cover your mouth while coughing or sneezing</li>
+                <li> Stay hydrated and drink lot of fluids</li>
+                <li> Take Paracetamol in case of fever and body pain</li>
+                <li> Do not spit in the open</li>
+                <li> Do not shake hands</li>
+                <li> Do not self medicate</li>
+              </ul></p>     
+    <br>
+              <p>As per the ICMR and IMA, Influenza sub-type H3N2 is causing respiratory distress among people and the air pollution is aggravating the same, In case you feel any difficulty in breathing, please report to the Medical Centre straight away.
+
+                It is also to be noted that Covid cases are on the rise in NCR and we need to be careful to avoid crowded places and everyone is advised to wear masks.</p>
+              
+        </div>
+          
+<br><br><br><br><br><br>
+            <div id="hfPageFooter">
+                <div>
+                    <p><span>Browse our Features</span></p>
+                    <p>Home</p>
+                    <p>For Doctors</p>
+                    <p>Book an Appointment</p>
+                    <p>Ask a Question</p>
+                    <p>Consult Online</p>
+                    <p>Book Lab Test</p>
+                </div>
+                <div id="hfLastFooterDiv">
+                    <p><span>Download App</span></p>
+                    <div><img src="https://assets.lybrate.com/q_auto,f_auto/imgs/product/logos/GooglePlay.png" alt=""></div>
+                    <div><img src="https://assets.lybrate.com/q_auto,f_auto/imgs/product/logos/AppStore.png" alt=""></div>
+            </div>
+            </div>
+        </body>
+        </html>
